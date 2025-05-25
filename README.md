@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # solidity-mapping-template (2 templates)
 
 This repo contains my Solidity and ethers.js practice projects as part of my Web3 developer journey. These templates focus on `mapping`, `msg.sender` control, and access management in smart contracts. The goal is to sharpen my ability to write reusable contract logic and deploy/test them on local blockchains.
@@ -45,3 +46,6 @@ I'm currently open to:
 DeFi scripting, access control, smart contract patterns, and EVM-based interactions.
 
 Feel free to reach out if you're looking for help building or testing small contracts and interaction scripts.
+=======
+# solidity-mapping-templates
+>>>>>>> 9dcc1bb (Initial commit)
