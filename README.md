@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # solidity-mapping-template (2 templates)
 
 This repo contains my Solidity and ethers.js practice projects as part of my Web3 developer journey. These templates focus on `mapping`, `msg.sender` control, and access management in smart contracts. The goal is to sharpen my ability to write reusable contract logic and deploy/test them on local blockchains.
@@ -6,18 +5,20 @@ This repo contains my Solidity and ethers.js practice projects as part of my Web
 ### Contracts Included
 
 # 1. TokenBank.sol
+- Frontend Interaction: - Connected with MetaMask & ethers.js to perform live interactions
 - Tracks approved addresses using `mapping(address => bool)`
 - Includes `modifier onlyApproved` for function-level access control
-- Functions:
+- Core Functions:
   - `approveUser(address)`
   - `revokeUser(address)`
   - `increase()` (restricted to approved users)
   - `getCount()`
 
 # 2. AccessList.sol
+- - Frontend Interaction: - Connected with MetaMask & ethers.js to perform live interactions
 - Simulates a basic ETH bank using `mapping(address => uint)`
 - Allows users to deposit and withdraw ETH
-- Functions:
+- Core Functions:
   - `deposit()` (payable)
   - `withdraw(uint)`
   - `getBalance()`
@@ -27,11 +28,12 @@ This repo contains my Solidity and ethers.js practice projects as part of my Web
 - Hardhat
 - Ethers.js
 - JavaScript (for deployment and interaction scripts)
+- MetaMask (for frontend interaction testing)
 
 ###  Coming Soon
-- Frontend UIs for both contracts (Vanilla JS + MetaMask or React + Ethers.js)
-- test.js files to verify contract behavior
-- A frontend-accessible "Smart Wallet" dApp
+- More advanced contracts with `require` logic, owner roles, and multi-user flows
+- Frontend UI for additional contracts
+- Contract deployment automation + verification steps
 
 ---
 
@@ -47,5 +49,5 @@ DeFi scripting, access control, smart contract patterns, and EVM-based interacti
 
 Feel free to reach out if you're looking for help building or testing small contracts and interaction scripts.
 =======
-# solidity-mapping-templates
->>>>>>> 9dcc1bb (Initial commit)
+
+
